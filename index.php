@@ -20,6 +20,9 @@
                $raw_data = $request->body;
                 
                $clean_data = json_decode($raw_data, $assoc=true);
+               $i = 0;
+               for($i = 0; $i < 25; $i++)
+                    echo '<p><a href="'.$clean_data["data"]["children"][$i]["data"]["domain"].'">'.$clean_data["data"]["children"][$i]["data"]["title"].'</a></p>';
             ?>
             </reddit>
 
