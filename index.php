@@ -14,7 +14,7 @@
 
             <reddit>
             <?php
-                require $path;
+               require 'vendor/autoload.php';
                $headers = array('Accept' => 'application/json');
                $request = Requests::get('https://reddit.com/r/worldnews/top/.json', $headers, NULL);
             ?>
