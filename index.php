@@ -13,12 +13,6 @@
             </facebook>
 
             <reddit>
-                <?php
-                    require 'lib/main.php'
-                    $content      = get_url('http://reddir.com/r/worldnews/top/.json');
-                    $json_content = json_decode($content, true);
-                    print_r($json_content);
-                ?> 
             </reddit>
 
             <mail>
