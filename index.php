@@ -13,6 +13,11 @@
             </facebook>
 
             <reddit>
+            <?php
+                require $path;
+               $headers = array('Accept' => 'application/json');
+               $request = Requests::get('https://reddit.com/r/worldnews/top/.json', $headers, NULL);
+            ?>
             </reddit>
 
             <mail>
