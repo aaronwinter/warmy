@@ -27,7 +27,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body style="background-image: url('res/background.jpg');">
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -50,20 +50,12 @@
       </div>
     </nav>
 
-    <div class="container" style="background-color: rgb(242, 229, 255);">
+    <div class="container" style="background-color: rgba(0, 0, 0, 0.5); color: white;">
 
       <div class="starter-template">
         <h1>Good afternoon Aaron,</h1>
         <p class="lead">Reddit, Facebook, News, Todo</p> 
       </div>
-     <div class="row">
-     <center>
-      <div class="col-md-4">/r/worldnews</div>
-      <div class="col-md-4">Facebook messages</div>
-      <div class="col-md-4">Hacker News</div>
-    </center>
-    </div>
-
     </div><!-- /.container -->
 
 
