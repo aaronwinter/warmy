@@ -1,3 +1,7 @@
+<?php
+    require 'lib/main.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -69,63 +73,38 @@
     <div class="container" style="background-color: rgba(0, 0, 0, 0.5); color: white;">
 
       <div class="starter-template">
-        <h1>Good afternoon Aaron,</h1>
-        <p class="lead">You have 13 new messages</p> 
+        <h1>
+            <?php WelcomeMessage(); ?>,
+        </h1>
+
+        <p class="lead">
+            <?php (IsNewMessages()) ? (AlertNew()) : ("No new messages") ; ?>
+        <i class="icon-eye-open"></i></p> 
         <source>
           <info>
             <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>World News</th>
-                </tr>
-              </thead>
               <tbody>
-                <tr>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>Jacob</td>
-                  <td>@fat</td>
-                </tr>
+                <?php
+                    GenerateData("reddit", "table", 25);
+                ?>
               </tbody>
             </table>
           </info>
           <info>
             <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>World News</th>
-                </tr>
-              </thead>
               <tbody>
-                <tr>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>Jacob</td>
-                  <td>@fat</td>
-                </tr>
+                <?php
+                    GenerateData("reddit", "table", 25);
+                ?>
               </tbody>
             </table>
           </info>
           <info>
             <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>World News</th>
-                </tr>
-              </thead>
               <tbody>
-                <tr>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>Jacob</td>
-                  <td>@fat</td>
-                </tr>
+                <?php
+                    GenerateData("reddit", "table", 25);
+                ?>
               </tbody>
             </table>
           </info>
