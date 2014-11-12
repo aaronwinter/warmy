@@ -25,6 +25,22 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        body{
+            background-image: url('res/background.jpg');
+        }
+
+        source{
+            display: inline-block;
+            width: 100%;
+        }
+
+        info{
+            position: float;
+            width: 33%;
+            float: right;
+        }
+    </style>
   </head>
 
   <body style="background-image: url('res/background.jpg');">
@@ -54,7 +70,66 @@
 
       <div class="starter-template">
         <h1>Good afternoon Aaron,</h1>
-        <p class="lead">Reddit, Facebook, News, Todo</p> 
+        <p class="lead">You have 13 new messages</p> 
+        <source>
+          <info>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>World News</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Jacob</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+            </table>
+          </info>
+          <info>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>World News</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Jacob</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+            </table>
+          </info>
+          <info>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>World News</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Jacob</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+            </table>
+          </info>
+        </source>
       </div>
     </div><!-- /.container -->
 
